@@ -1,4 +1,4 @@
-package com.SEG2105.project;
+package com.josiah.project;
 
 import org.junit.Test;
 

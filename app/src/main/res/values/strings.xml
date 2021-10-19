@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Project</string>
+    <string name="textHintPassword">Password</string>
+    <string name="textHintUsername">Username</string>
+    <string name="textHintFirstName">First Name</string>
+    <string name="textHintLastName">Last Name</string>
+    <string name="textHintPasswordRepeat">Repeat Password</string>
+     <string name="textHintAccountType">Account Type</string>
+    <string name="textTitle">Login</string>
+    <string name="textCreateTitle">Create Account</string>
+    <string name="textButtonCreateAccount">Create Account</string>
+    <string name="textButtonLogin">Login</string>
+    <string name="strTitleMember">Members</string>
+    <string name="strTitleAdmin">Admins</string>
+    <string name="strTitleInstructor">Intructors</string>
 </resources>
