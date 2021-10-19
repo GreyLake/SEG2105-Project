@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPageClassEdit">
+
+    <TextView
+        android:id="@+id/textEditClassID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textEditClassID"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/textEnterClassNameEdit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textEditClassTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textEditClassTitle"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textEnterClassNameEdit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textEnterClassNameEdit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:width="50dp"
+        android:ems="10"
+        android:hint="@string/textHintClassName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEditClassTitle" />
+
+    <EditText
+        android:id="@+id/textEnterClassDescriptionEdit"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/textHintClassDescription"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEnterClassNameEdit" />
+
+    <TextView
+        android:id="@+id/textClassNameEditTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/textClassNameEditTitle"
+        app:layout_constraintBottom_toTopOf="@+id/textEnterClassNameEdit"
+        app:layout_constraintStart_toStartOf="@+id/textEnterClassNameEdit" />
+
+    <Button
+        android:id="@+id/textAdminClassesCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="44dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="cancelEdit"
+        android:text="@string/textAdminAccountsCancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textEnterClassDescriptionEdit"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/textClassDescriptionEditTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/textClassDescriptionEditTitle"
+        app:layout_constraintBottom_toTopOf="@+id/textEnterClassDescriptionEdit"
+        app:layout_constraintStart_toStartOf="@+id/textEnterClassDescriptionEdit" />
+
+    <Button
+        android:id="@+id/textAdminClassesSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="44dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="saveEdit"
+        android:text="@string/textAdminAccountsSave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textEnterClassDescriptionEdit"
+        tools:ignore="UsingOnClickInXml" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

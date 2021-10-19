@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_admin.xml" value="0.2" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_admin_accounts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_admin_accounts_edit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_admin_classes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_admin_create_class.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_admin_edit_class.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_admin_statistics.xml" value="0.29683698296836986" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_create.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_instructor.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layout/activity_member.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/account/layout/activity_create.xml" value="0.264" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/account/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/admin/layout/accounts_list.xml" value="0.4" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/admin/layout/activity_admin.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/admin/layout/activity_admin_accounts.xml" value="0.2" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/admin/layout/activity_admin_accounts_edit.xml" value="0.264" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/admin/layout/activity_admin_classes.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/admin/layout/activity_admin_classes_create.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/admin/layout/activity_admin_classes_edit.xml" value="0.264" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/admin/layout/activity_admin_statistics.xml" value="0.2" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/admin/layout/classes_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/instructor/layout/activity_instructor.xml" value="0.1" />
+        <entry key="..\:/Users/josia/Desktop/SEG2105/SEG2105-Project/app/src/main/res/layouts/member/layout/activity_member.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
   </component>
 </project>
