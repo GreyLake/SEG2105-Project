@@ -68,7 +68,7 @@ public class DatabaseAccount extends SQLiteOpenHelper {
         return false;
     }
 
-    public Boolean checkPassword(String username, String password){
+    public boolean checkPassword(String username, String password){
         String queryString = "SELECT " + COLUMN_PASSWORD + " FROM " + ACCOUNTS + " WHERE " + COLUMN_USERNAME + " =?";
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(queryString, new String[] {username});

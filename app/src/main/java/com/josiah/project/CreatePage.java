@@ -96,4 +96,8 @@ public class CreatePage extends AppCompatActivity implements AdapterView.OnItemS
 
         databaseAccount.close();
     }
+
+    public void back(View view) {
+        finish();
+    }
 }
